@@ -1,0 +1,239 @@
+h1[paint]
+{
+    color: green;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration:underline;
+}
+
+.project p
+{
+    font-family:cursive;
+    font-size:medium ;
+    font-size: 15px;
+}
+
+div[image]
+{
+    width:25%;
+    height: 200px;
+    background-color: #bbb;
+    float: left;
+    border-style: solid;
+    
+}
+
+#projectlogo
+{
+    width:90%;
+    height:90%;
+    position: relative;
+    left: 5%;
+    top: 5%;
+}
+
+.projectlist
+{
+    position:relative;
+    left: 50px;
+    font-style: oblique;
+    font-weight: bold;
+
+}
+
+#skill,h1[qualify],.objective,.work{
+    color:green;
+    font-family: cursive;
+    font-style: italic;
+    text-decoration:underline;
+    clear: left;
+}
+
+
+.profileDiv
+{
+    background-color: lightcyan;
+}
+
+.profileHolder
+{
+    height: 300PX;
+    width: 300PX;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#profile
+{
+    height: 280PX;
+    width: 280PX;
+    border-radius: 50%;
+    position:absolute;
+    left: 10PX;
+    top: 10PX;
+}
+
+.section
+{
+    background-color:lightyellow;
+    height:300px;
+    width: 100%;
+    position: relative;
+}
+
+.edu
+{
+    background-color: yellowgreen;
+    height: 100px;
+    width: 20%;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: absolute;
+    top:100px
+}
+
+.lan
+{
+    background-color: yellow;
+    height: 100px;
+    width: 20%;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: absolute;
+    top:100px;
+    left: 25%;
+}
+
+.frame
+{
+    background-color: orange;
+    height: 100px;
+    width: 20%;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: absolute;
+    top:100px;
+    left: 50%;
+}
+
+.operate
+{
+    background-color: darkkhaki;
+    height: 100px;
+    width: 20%;
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: absolute;
+    top:100px;
+    left: 75%;
+}
+
+.txt
+{
+    font-family:cursive;
+    font-size: medium;
+    position: relative;
+    left:15%;
+}
+
+.obj p
+{
+    font-family:cursive;
+    font-size:medium ;
+    font-size: 15px;
+    background-color: antiquewhite;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+}
+
+/* using media queries*/
+
+@media (min-width:100px) and (max-width:500px) 
+{
+    .txt{
+        font-size:smaller;
+    }
+}
+
+/* using flex-box*/
+
+.obj{
+    display: flex;
+    flex-direction: column;
+}
+
+/* using flex layout in education section */
+
+.educateflex
+{
+    /*flex container*/
+    display: inline-flex;
+    gap: 15px;
+    flex-direction: column;
+    flex-basis: 100px;
+}
+
+.qul
+{
+    /*flex child 2*/
+    background-color: gold;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    width:700px;
+    flex:110;
+}
+
+.qul ul{
+    font-family:cursive;
+    font-size: small;
+}
+
+/* grid */
+
+
+#flexgrid
+{
+display: inline-flex;
+width:100%;
+justify-content: space-between;
+}
+
+.gridview
+{
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: 10px;
+ background-color: lightgoldenrodyellow;
+ width:100%;
+ border-style: solid;
+ border-width: 3px;
+ border-radius: 3px;
+ font-family:cursive;
+}
+
