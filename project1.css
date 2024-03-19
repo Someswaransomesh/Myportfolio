@@ -237,3 +237,26 @@ justify-content: space-between;
  font-family:cursive;
 }
 
+/* Bootstrap*/
+
+#head1
+{
+    background-color:rgb(13, 110, 253);
+    color: white;
+    font-family:cursive;
+
+}
+
+#border1,#border2
+{
+    border-color: rgb(13, 110, 253);
+    border-style: solid;
+    font-family:cursive;
+}
+
+.card-body
+{
+    background-color: lightskyblue;
+    font-family:cursive;
+}
+
